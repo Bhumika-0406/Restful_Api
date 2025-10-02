@@ -14,10 +14,11 @@
             @<%=post.username %>
         </h3>
         <h4 class="content"><%=post.content%></h4>
+        <a href="http://localhost:8080/posts/<%= post.id%>">See in detail</a>
      </div>
 <%}%>
 
-<br>
+<br><br>
 <a href="http://localhost:8080/posts/new">Create new post</a>
 
 </body>
